@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1{ /*box-level*/
+            background-color: palegreen;
+            height: 300px;
+            width: 300px;
+
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray;
+            /*          ou 
+            border: 10px solid darkslategray;
+            */
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            /*          ou 
+            padding: 10px 10px 10px 10px;
+
+            Obs: Se os quatro valores forem iguais basta colocar uma vez "10px".
+            */
+
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 25px;
+            margin-left: 10px;
+            /*          ou 
+            margin: 10px 10px 25px 10px;
+            
+            Obs: Se os quatro valores forem iguais basta colocar uma vez o valor "x".
+            Obs2: Você também pode usar os valores "auto" para centralizar.
+            */
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: darkturquoise;
+
+            /*          ou
+            outline: 5px dashed darkturquoise;
+            */
+        }
+
+        a{ /*inline-level*/
+            border: 10px solid darkorange;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>
