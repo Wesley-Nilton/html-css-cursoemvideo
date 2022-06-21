@@ -8,11 +8,10 @@ Visualize o resultado atual dos projetos:
 - [Projeto Cordel](https://wesley-nilton.github.io/html-css-cursoemvideo/projetos/projeto-cordel)
 
 ## 🛸| Tecnologias
-Na construção dos projetso foram utilizadas as seguintes tecnologias:
+Na construção dos projetos foram utilizadas as seguintes tecnologias:
 
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ## 👥| Autor(es)
 Autores e contribuidores dos projetos:
