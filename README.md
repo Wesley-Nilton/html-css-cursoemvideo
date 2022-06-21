@@ -1,5 +1,5 @@
-# HTML e CSS do Curso em Vídeo
-Repóstiorio destinado a todos os exercícios e projetos realizados durante o curso de HTML e CSS do Curso em Vídeo.
+# HTML e CSS - Curso em Vídeo
+Repositório destinado a todos os exercícios e projetos realizados durante o curso de HTML e CSS do Curso em Vídeo.
 
 ## 🔎| Visualize
 Visualize o resultado atual dos projetos:
