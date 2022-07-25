@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="registration.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sex" id="imas" value="M">
+            <label for="imas">Masculino</label><br>
+            <input type="radio" name="sex" id="ifem" value="F" checked>
+            <label for="ifem">Feminino</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="bask" id="ibask">
+            <label for="ibask">Basquete</label><br>
+            <input type="checkbox" name="foot" id="ifoot" checked>
+            <label for="ifoot">Futebol</label><br>
+            <input type="checkbox" name="swim" id="iswim">
+            <label for="iswim">Natação</label><br>
+            <input type="checkbox" name="sneak" id="isneak">
+            <label for="isneak">Tênis</label><br>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
