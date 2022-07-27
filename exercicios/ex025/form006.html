@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <!-- The post method is essential for sending files requested in the form -->
+    <form action="registration.php" method="post" autocomplete="on">
+        <p>
+            <label for="icolor">Cor:</label>
+            <input type="color" name="color" id="icolor" value="#00FF00">
+        </p>
+        <p>
+            <label for="ilevel">Nível de satisfação:</label>
+            <input type="range" name="level" id="ilevel" min="1" max="5" value="2">
+        </p>
+        <p>
+            <label for="iphoto">Foto do perfil:</label>
+            <input type="file" name="photo" id="iphoto">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
