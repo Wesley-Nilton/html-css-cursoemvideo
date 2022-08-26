@@ -19,8 +19,23 @@ header h1{
     padding: 10px;
 }
 
+span#burguer{
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: #313131;
+}
+
+span#burguer:hover{
+    color: #000;
+    background-color: #fff;
+}
+
 menu{
-    display: block;
+    display: none;
 }
 
 menu ul{
