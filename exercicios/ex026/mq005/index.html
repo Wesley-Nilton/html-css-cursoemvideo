@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media-query.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
-<body>
+<body onresize="changedSize()">
     <header>
         <h1>Meu site</h1>
         <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
@@ -31,12 +32,21 @@
         </article>
     </main>
     <script>
-        function clickMenu(){
-            const menu = document.querySelector("#menu");
-            if(menu.style.display == "none"){
-                menu.style.display = "block";
+        const menu = document.querySelector("#menu");
+
+        function changedSize(){
+            if(window.innerWidth >= 768){
+                menu.style.display = "block"
             } else{
                 menu.style.display = "none";
+            }
+        }
+
+        function clickMenu(){
+            if(menu.style.display == "block"){
+                menu.style.display = "none";
+            } else{
+                menu.style.display = "block";
             }
         }
     </script>
