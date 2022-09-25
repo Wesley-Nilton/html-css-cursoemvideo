@@ -35,7 +35,7 @@ section#login{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 25rem;
-    height: 50rem;
+    height: 51.5rem;
     overflow: hidden;
     transition: width .3s, heigth .3s;
     transition-timing-function: ease;
@@ -64,5 +64,55 @@ div#form > h1{
 }
 
 div#form > p{
+    font-size: 1.3rem;
+}
+
+form > div.field{
+    height: 4rem;
+    margin-block: .5rem;
+    border-radius: .5rem;
+    background-color: #5f2c82;
+}
+
+form > div.field > label{
+    display: none;
+}
+
+form > input[type=submit]{
+    color: #fff;
+    display: block;
+    font-size: 1.4rem;
+    width: 100%;
+    height: 4rem;
+    cursor: pointer;
+    border: none;
+    border-radius: .5rem;
+    background-color: #49a09d;
+}
+
+form > input[type=submit]:hover{
+    background-color: #2e6967;
+}
+
+form > a.button{
+    color: #2e6967;
+    display: block;
+    font-size: 1.4rem;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    height: 4rem;
+    margin-top: .5rem;
+    padding-top: .9rem;
+    border: .1rem solid #49a09d;
+    border-radius: .5rem;
+    background-color: #fff;
+}
+
+form > a.button:hover{
+    background-color: #5ccac7;
+}
+
+form > a.button > span{
     font-size: 1.3rem;
 }
