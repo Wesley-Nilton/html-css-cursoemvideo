@@ -70,12 +70,35 @@ div#form > p{
 form > div.field{
     height: 4rem;
     margin-block: .5rem;
-    border-radius: .5rem;
+    border-radius: .8rem;
+    border: .2rem solid #5f2c82;
     background-color: #5f2c82;
 }
 
 form > div.field > label{
     display: none;
+}
+
+form > div.field > span{
+    color: #fff;
+    font-size: 2.8rem;
+    width: 4rem;
+    padding: .5rem;
+}
+
+form > div.field > input{
+    font-size: 1.4rem;
+    width: calc(100% - 4.3rem);
+    height: 100%;
+    padding: .4rem;
+    transform: translateY(-1.1rem);
+    border: none;
+    border-radius: .8rem;
+    background-color: #76c7c4;
+}
+
+form > div.field > input:focus-within{
+    background-color: #fff;
 }
 
 form > input[type=submit]{
